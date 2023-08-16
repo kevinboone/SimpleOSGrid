@@ -1,0 +1,20 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.SimpleOSGrid" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+    </style>
+
+    <style name="large_text"> 
+      <item name="android:fontFamily">sans_serif</item>
+      <item name="fontFamily">sans_serif</item>
+      <item name="android:textStyle">normal</item>
+      <item name="android:textSize">@dimen/large_text_size</item>
+    </style>
+
+    <style name="normal_text"> 
+      <item name="android:textStyle">normal</item>
+    </style>
+
+    <style name="Theme.SimpleOSGrid" parent="Base.Theme.SimpleOSGrid" />
+</resources>

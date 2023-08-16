@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+ <LinearLayout
+      xmlns:android="http://schemas.android.com/apk/res/android"
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      android:paddingLeft="16dp"
+      android:paddingRight="16dp"
+      android:orientation="vertical">
+    <androidx.appcompat.widget.SwitchCompat
+        android:id="@+id/onoff"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/active" />
+    <TextView
+        android:id="@+id/text_view_result_id"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="@string/no_os"
+        style="@style/large_text" />
+    <TextView
+        android:id="@+id/text_view_message_id"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="@string/not_active"
+        style="@style/normal_text" />
+ </LinearLayout>
+

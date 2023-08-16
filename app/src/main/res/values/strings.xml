@@ -1,0 +1,10 @@
+<resources>
+    <string name="active">Active</string>
+    <string name="app_name">SimpleOSGrid</string>
+    <string name="gps_stopped">GPS stopped</string>
+    <string name="no_location_permission">Location permission has not been granted to this app</string>
+    <string name="no_os">-- --- ---</string>
+    <string name="not_active">Not active</string>
+    <string name="waiting">Waiting for location</string>
+    <string name="waiting_no_gps">Waiting for location, but GPS is turned off</string>
+</resources>
